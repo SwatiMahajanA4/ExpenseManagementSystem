@@ -1,0 +1,176 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-color: #e7f2f8;
+  font-family: "Montserrat", sans-serif;
+}
+
+.loginform-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginform-container .login-form {
+  padding: 20px 0;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #d4d4d4;
+}
+
+.form-inputs {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 20px;
+  border-width: 1px;
+}
+
+.form-inputs:focus {
+  outline: none;
+  border-bottom: 3px solid;
+}
+
+.username-component,
+.passcode-component,
+.repasscode-component {
+  padding-top: 30px;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+.custom-button {
+  color: #000000;
+  border-width: 2px;
+  margin-top: 30px;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #74bdcb;
+  border: none;
+}
+
+.login-page-button {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.new-user-button,
+.old-user-button {
+  border: none;
+  padding: 0 20px;
+  color: #000000;
+}
+.new-user-button:hover,
+.old-user-button:hover {
+  background-color: #74bdcb;
+}
+
+/* .custom-button:active {
+  background-color: #74bdcb;
+  border: none;
+} */
+
+::placeholder {
+  opacity: 0.5;
+}
+
+.mainpage-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainpage-section-container section {
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+.expense-form-table {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  height: initial;
+  border-color: #000000;
+}
+
+#expense-date,
+#expense-category,
+#expense-custom-category,
+#expense-amount {
+  width: 50vh;
+  border: none;
+  border-bottom: 1px solid #000000;
+  text-align: left;
+}
+
+.nouse-hidden {
+  visibility: hidden;
+}
+
+.custom-hidden {
+  display: none;
+}
+
+.custom-category-button {
+  margin: 0;
+}
+
+.submit-button {
+  margin-bottom: 20px;
+}
+
+td {
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  margin: 0 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffa384;
+}
+
+.nav-button {
+  margin: 0 10px 0 0;
+}
+
+.nav-button:hover {
+  background-color: #ffffff;
+}
+
+.log-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.log-container {
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #efe7bc;
+}
+
+/*
+Baby Blue: #E7F2F8;
+Aquamarine: #74BDCB;
+Salmon: #FFA384;
+Freesia: #EFE7BC;
+
+
+font-family: 'Montserrat', sans-serif;
+*/
